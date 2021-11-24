@@ -22,6 +22,7 @@ body {
     margin: 50px;
     background: aliceblue;
     display: grid;
+    letter-spacing: 1.5px;
     grid-template-columns: 1fr 2fr;
 }
 
@@ -141,12 +142,65 @@ div {
     height: 10px;
 }
 
+
 @media(max-width:600px) {
+    body {
+        padding: 10px 0px 0px 0px;
+        box-sizing: border-box;
+        align-items: center;
+    }
     #container {
         margin: 10px;
         grid-template-columns: 100%;
-        overflow: visible;
+        overflow: visiblhe;
+        width: 100vw;
     }
+    #left {
+        width: 100vw;
+    }
+    #rignt {
+        width: 100vw;
+    }
+    .per {
+        position: relative;
+        width: 80vw;
+        background-color: black;
+        height: 10px;
+        display: block;
+        margin-top: 10px;
+    }
+    .per2 {
+        position: relative;
+        width: 80vw;
+        background-color: #003147;
+        height: 10px;
+        display: block;
+        margin-top: 10px;
+    }
+}
+@media(max-width:800px) {
+    body {
+        padding: 10px 0px 0px 0px;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    #container {
+        margin: 10px;
+        grid-template-columns: 100%;
+        overflow: -moz-hidden-unscrollable;
+        width: 100vw;
+        letter-spacing: 1.5px;
+    }
+    #left {
+        width: 100vw;
+    }
+    #two {
+        justify-items: center;
+    }
+    #rignt {
+        width: 100vw;
+    }
+    #headings2 {}
     .per {
         position: relative;
         width: 80vw;
