@@ -104,11 +104,12 @@ li {
         padding: 0 0 0 0;
         margin: 0 0 0 0;
         box-sizing: border-box;
+        background-color: beige;
     }
     #container {
-        display: grid;
-        grid-template-columns: 1fr;
         padding: 0 0 0 0;
+        display: grid;
+        grid-template-columns: 100%;
         width: 100vw;
     }
     .per {
@@ -143,8 +144,12 @@ li {
     }
     #left {
         width: 100vw;
+        word-wrap: break-word;
+        background-color: #003147;
     }
     #right {
         width: 100vw;
+        word-wrap: break-word;
+        background-color: beige;
     }
 }
