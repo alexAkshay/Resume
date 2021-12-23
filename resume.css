@@ -152,4 +152,16 @@ li {
         word-wrap: break-word;
         background-color: beige;
     }
+    .six {
+        width: 90%;
+        margin-left: 0%;
+    }
+    .five {
+        width: 95%;
+        margin-left: 0%;
+    }
+    .seven {
+        width: 95%;
+        margin-left: 0%;
+    }
 }
